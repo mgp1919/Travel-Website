@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel Guide</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <center>
+    <h1>🚣Which kinds of places do you want to see?🚣</h1>
+<form action="Tourist3.html" method="get">
+  <input type="checkbox" name="interests" value="Historical" id = "1" onclick = "getInterests(this.id)"> Historical<br>
+  <input type="checkbox" name="interests" value="Food" id = "2" onclick = "getInterests(this.id)"> Food<br>
+  <input type="checkbox" name="interests" value="Shopping" id = "3" onclick = "getInterests(this.id)"> Shopping<br>
+  <input type="checkbox" name="interests" value="Photo Ops" id = "4" onclick = "getInterests(this.id)"> Photo Ops<br>
+  <input type="checkbox" name="interests" value="Attractions" id = "5" onclick = "getInterests(this.id)"> Attractions<br>
+  <input type="submit" value="Submit">
+</form>
+    </center>
+
+    
+  </body>
+</html>
